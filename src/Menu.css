@@ -1,0 +1,71 @@
+#grid1, #grid2, #grid3{
+   display: grid;
+   width: 100%;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows:  50px 1fr;
+   justify-content: center;
+   text-align: center;
+}
+#grid1 h3{
+    font-size: 25px;
+}
+#grid2 h3{
+    font-size: 25px;
+}
+#grid3 h3{
+    font-size: 25px;
+}
+ #grid1 .card1 img{
+    width: 100%;
+    height: 250px;
+
+}
+#grid1 .card1 h1,
+#grid1 .card1 h2,
+#grid1 .card2 h1,
+#grid1 .card2 h2,
+#grid1 .card3 h1,
+#grid1 .card3 h2 {
+    position: relative;
+    bottom: 30px;
+}
+#grid2 .card1 h1,
+#grid2 .card1 h2,
+#grid2 .card2 h1,
+#grid2 .card2 h2,
+#grid2 .card3 h1,
+#grid2 .card3 h2 {
+    position: relative;
+    bottom: 30px;
+}
+#grid3 .card1 h1,
+#grid3 .card1 h2,
+#grid3 .card2 h1,
+#grid3 .card2 h2,
+#grid3 .card3 h1,
+#grid3 .card3 h2 {
+    position: relative;
+    bottom: 30px;
+}
+#grid1 .card1 img,
+#grid1 .card2 img,
+#grid1 .card3 img{
+    width: 100%;
+    height: 250px;
+
+}
+#grid2 .card1 img,
+#grid2 .card2 img,
+#grid2 .card3 img{
+    width: 100%;
+    height: 250px;
+
+}
+#grid3 .card1 img,
+#grid3 .card2 img,
+#grid3 .card3 img 
+       {
+    width: 100%;
+    height: 250px;
+
+}
